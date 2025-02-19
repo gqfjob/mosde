@@ -24,6 +24,9 @@
       <router-link to="/users/tom/posts" class="mr-4 text-blue-500 font-bold">
         Users-tom-posts
       </router-link>
+      <router-link to="/dog" class="mr-4 text-blue-500 font-bold">
+        Dog
+      </router-link>
     </div>
     <div class="flex flex-col items-center justify-center w-full mt-10">
       <router-view />

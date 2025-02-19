@@ -7,7 +7,7 @@ import Users from "@/components/Users.vue";
 import UserProfile from "@/components/UserProfile.vue";
 import UserPosts from "@/components/UserPosts.vue";
 import Login from "@/components/Login.vue";
-
+import DogView from "@/view/DogView.vue";
 const logined = true;
 const routes: Array<RouteRecordRaw> = [
   {
@@ -64,6 +64,11 @@ const routes: Array<RouteRecordRaw> = [
     meta: {
       title: "登录",
     },
+  },
+  {
+    path: "/dog",
+    component: DogView,
+    name: "dog",
   },
 ];
 export default routes;
