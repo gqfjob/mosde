@@ -8,6 +8,7 @@ import UserProfile from "@/components/UserProfile.vue";
 import UserPosts from "@/components/UserPosts.vue";
 import Login from "@/components/Login.vue";
 import DogView from "@/view/DogView.vue";
+import LoadAndShow from "@/view/LoadAndShow.vue";
 const logined = true;
 const routes: Array<RouteRecordRaw> = [
   {
@@ -69,6 +70,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/dog",
     component: DogView,
     name: "dog",
+  },
+  {
+    path: "/async",
+    component: LoadAndShow,
+    name: "async",
   },
 ];
 export default routes;
