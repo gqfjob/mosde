@@ -30,6 +30,9 @@
       <router-link to="/async" class="mr-4 text-blue-500 font-bold">
         Async
       </router-link>
+      <router-link to="/user" class="mr-4 text-blue-500 font-bold">
+        User-Info
+      </router-link>
     </div>
     <div class="flex flex-col items-center justify-center w-full mt-10">
       <router-view />
